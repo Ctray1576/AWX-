@@ -1,5 +1,5 @@
 - name: Update machine
   hosts: all
-  command: sudo apt update
+  action: sudo apt update
   ignore_errors: yes
 

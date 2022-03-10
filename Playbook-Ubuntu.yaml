@@ -9,7 +9,7 @@
   become_method: sudo
   tasks:
 - name: "Update cache & Full system update"
-  apt:
+  #apt:
   update_cache: true
   upgrade: dist
   cache_valid_time: 3600

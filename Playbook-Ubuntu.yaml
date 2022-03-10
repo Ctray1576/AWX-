@@ -1,1 +1,4 @@
-sudo apt update
+name: Update machine
+hosts: all
+command: sudo apt update
+ignore errors: yes
